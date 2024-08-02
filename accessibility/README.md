@@ -1,40 +1,63 @@
-Certainly! Here’s a 30-line overview of accessibility in web design:
+# 0x07. Accessibility
+
+## Description:bulb:
+One does not simply ignore accessibility
+
+* ARIA's main purpose
+* WCAG conformance levels (A, AA and AAA)
+* The importance of Web Accessibility
+* Tools to use for Web Accessibility
 
 ---
 
-**Accessibility in Web Design**
-
-1. **Accessibility** refers to the design of websites that can be used by people of all abilities and disabilities.
-2. **Inclusive Design** ensures that everyone, including those with disabilities, can access and interact with web content.
-3. **Screen Readers** are tools used by visually impaired users to hear the content on a webpage.
-4. **Alt Text** provides descriptions for images so that screen readers can convey the content to users who cannot see them.
-5. **Keyboard Navigation** allows users to navigate websites using keyboard shortcuts instead of a mouse.
-6. **Color Contrast** is important for readability, ensuring that text stands out against its background for users with visual impairments.
-7. **Text Resizing** enables users to adjust font sizes to meet their readability needs without breaking the layout.
-8. **Semantic HTML** helps screen readers interpret the structure of the content correctly.
-9. **ARIA (Accessible Rich Internet Applications)** roles and properties enhance the accessibility of dynamic content.
-10. **Form Labels** must be properly associated with form fields to ensure users understand what information is required.
-11. **Captions and Transcripts** are essential for users who are deaf or hard of hearing, providing access to multimedia content.
-12. **Accessible Navigation** includes clear and consistent menus and navigation options for users with disabilities.
-13. **Error Identification** and suggestions help users with cognitive disabilities correct mistakes in forms.
-14. **Focus Indicators** highlight which element is currently focused on by the user, aiding keyboard navigation.
-15. **Responsive Design** ensures that websites are usable on different devices and screen sizes, including mobile devices.
-16. **Avoiding Auto-Play** of videos and audio allows users to control media playback, preventing unexpected disruptions.
-17. **Descriptive Link Text** provides clear and informative links that convey their purpose or destination.
-18. **Testing with Users** involves gathering feedback from individuals with disabilities to ensure real-world usability.
-19. **Web Accessibility Guidelines** such as WCAG (Web Content Accessibility Guidelines) provide standards for creating accessible content.
-20. **Alt Text for Images** should be concise and relevant, describing the image’s purpose or content.
-21. **Error Prevention** techniques help users avoid making mistakes by providing clear instructions and validations.
-22. **Accessible Forms** include proper labeling, instructions, and error messages to guide users through data entry.
-23. **Skip Navigation Links** allow users to bypass repetitive content and access the main content directly.
-24. **Voice Control Compatibility** allows users to navigate and interact with websites using voice commands.
-25. **Consistent Layouts** and design elements improve usability for users who rely on screen readers or keyboard navigation.
-26. **Interactive Elements** like buttons and links should be easily identifiable and operable with various input methods.
-27. **Live Region Updates** notify screen readers of changes to content without requiring a page refresh.
-28. **Accessibility Audits** involve evaluating a website’s accessibility features to identify and address potential issues.
-29. **Legal Requirements** in many regions mandate web accessibility, ensuring that organizations comply with accessibility standards.
-30. **Ongoing Improvement** and updates to accessibility practices ensure that websites remain usable for all users as technologies and standards evolve.
+## Resources:books:
+Read or watch:
+* [A crash Course on Accessibility] (https://intranet.hbtn.io/concepts/186)
+* [Accessibility is not a feature - Ethan Marcotte] (https://ethanmarcotte.com/wrote/accessibility-is-not-a-feature/)
+* [How to Meet WCAG (Quickref)] (https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0)
+* [Web Accessibility Guidebook for Developers] (https://www.telerik.com/blogs/web-accessibility-guidebook-for-developers?fbclid=IwAR3v8sqaMyuAYfa14dZJpDKqJd-v8qKfaKeEvZJRKTcRIOabNnYGPo4rA7U)
+* [Testing with assistive technologies - Service Manual - GOV.UK] (https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies)
+* [A11Y Style Guide] (https://a11y-style-guide.com/style-guide/)
+* [Building Pylon-Free Web Pages: An Intro to Web Accessibility] (https://engineering.vena.io/2018/10/12/building-pylon-free-web-pages-an-intro-to-web-accessibility/)
+* [I Threw Away my Mouse - 24 Accessibility] (https://www.24a11y.com/2018/i-threw-away-my-mouse/)
+* [I Used a Switch Control for a Day - 24 Accessibility] (https://www.24a11y.com/2018/i-used-a-switch-control-for-a-day/)
+* [The Myths of Color Contrast Accessibility] (https://uxmovement.com/buttons/the-myths-of-color-contrast-accessibility/)
+* [IAAP Certification] (https://www.accessibilityassociation.org/certification)
+* [Accessibility Blog | Deque Systems] (https://www.deque.com/blog/)
+* [Tink - Léonie Watson - On technology, food & life in the digital age] (https://tink.uk/)
+* [Articles >> Simply Accessible] (https://simplyaccessible.com/articles/)
+* [Accessibility Weekly] (https://a11yweekly.com/)
+* [European label (Web Accessibility): Eurocert - Home page] (http://www.euracert.org/en/)
+* [Section508.gov | GSA Government-wide IT Accessibility Program] (https://www.section508.gov/)
 
 ---
 
-These lines cover a range of important aspects of web accessibility, emphasizing the need for inclusive design practices.
+## Files:card_file_box:
+### [0. make the "works" card focus visible](./keyboard/01-styles.css)
+
+### [1. add the skip-links](./skip-links/01-index.html)
+
+### [2. Elements must have sufficient color contrast](./fix-a11y/01-index.html)
+
+### [3. Documents must have <title> element to aid in navigation](./fix-a11y/02-index.html)
+
+### [4. <html> element must have a lang attribute](./fix-a11y/03-index.html)
+
+### [5. Images must have alternate text](./fix-a11y/04-index.html)
+
+### [6. Form elements must have labels](./fix-a11y/05-index.html)
+
+### [7. Links must have discernible text](./fix-a11y/06-index.html)
+
+### [8. Zooming and scaling must not be disabled](./fix-a11y/07-index.html)
+
+### [9. Heading levels should only increase by one and all page content must be contained by landmarks](./fix-a11y/08-index.html)
+
+### [10. Document must have one main landmark](./fix-a11y/09-index.html)
+
+### [11. More than 2 elements become list](./fix-a11y/10-index.html)
+
+---
+
+## Author
+* **Joseph Mahiuha** - [Mahiuha](https://github.com/Mahiuha) - [twitter:speech_balloon:](https://twitter.com/Joseph_Mahiuha)
